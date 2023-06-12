@@ -1,0 +1,99 @@
+Objetos físicos {
+	Notebook {
+		Atributos {
+			cor: string;
+			material: string;
+			peso: float;
+			armazenamento: double;
+			qtdTeclas: int;
+		}
+		Métodos {
+			Acessar internet;
+			Assistir videos;
+			Editar imagens;
+			Jogar;
+			Programar;
+		}
+		Estado {
+			Ligado;
+			Velho;
+			Rachado;
+			Limpo;
+			Carregando;
+		}
+	}
+
+	Televisão {
+		Atributos {
+			cor: string;
+			polegadas: int;
+			resolucao: string;
+			altura: float;
+			qtdCanais: int;
+		}
+		Métodos {
+			Assistir programas;
+			Alternar canais;
+			Acessar streaming;
+			Aumentar volume;
+			Espelhar tela do celular;
+		}
+		Estado {
+			Desligada;
+			Deitada;
+			Quebrada;
+			Seca;
+			Nova;
+		}
+	}
+}
+
+Objetos conceituais {
+	Matéria escolar {
+		Atributos {
+			duracao: float;
+			conteudo: string;
+			obrigatorio: boolean;
+			professor: string;
+			dificuldade: string;
+		}
+		Métodos {
+			Ensinar alunos;
+			Estudar;
+			Atribuir conhecimento;
+			Descobrir novas coisas;
+			Agregar valor;
+		}
+		Estado {
+			Acontecendo;
+			Desatualizado;
+			Aprendido;
+			Ensinado;
+			Esquecido;
+		}
+	}
+
+	Sonho {
+		Atributos {
+			tema: string;
+			personagens: string;
+			duracao: float;
+			periodo: string;
+			tem sentido: boolean;
+		}
+		Métodos {
+			Descontrair;
+			Descansar;
+			Relaxar;
+			Imaginar;
+			Refletir;
+		}
+		Estado {
+			Dormindo;
+			Acontecendo;
+			Esquecido;
+			Lembrado;
+			Contado;
+		}
+	}
+}
