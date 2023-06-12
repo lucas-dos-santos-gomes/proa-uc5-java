@@ -1,4 +1,4 @@
-package classecaneta;
+package classe_caneta;
 
 public class Caneta { // Classe
   String modelo;
@@ -11,10 +11,14 @@ public class Caneta { // Classe
 
   // Métodos
   void riscar() {
-    if(this.tampada) {
-      System.out.println("ERRO! A caneta está tampada e não dá para riscar!");
+    if(this.tampada && this.carga <= 0) {
+      System.out.println("ERRO! A caneta está tampada e sem carga, portanto, não dá para riscar!\n");
+    } else if(this.tampada) {
+      System.out.println("ERRO! A caneta está tampada e não dá para riscar!\n");
+    } else if(this.carga <= 0) {
+      System.out.println("ERRO! A caneta está sem carga e não dá para riscar!\n");
     } else {
-      System.out.println("Bora riscar tudo!");
+      System.out.println("Bora riscar tudo!\n");
     }
   }
 
