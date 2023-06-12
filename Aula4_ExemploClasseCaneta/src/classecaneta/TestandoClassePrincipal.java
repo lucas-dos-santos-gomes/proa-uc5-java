@@ -1,4 +1,4 @@
-//package classecaneta;
+package classecaneta;
 
 public class TestandoClassePrincipal {
   public static void main(String[] args) {

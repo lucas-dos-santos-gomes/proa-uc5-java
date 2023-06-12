@@ -1,4 +1,4 @@
-//package classecaneta;
+package classecaneta;
 
 public class Caneta { // Classe
   String modelo;
