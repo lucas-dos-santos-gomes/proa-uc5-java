@@ -28,4 +28,14 @@ public class Conta {
       System.out.println("\nSaldo insuficiente!");
     }
   }
+
+  public void Deposito(double valorDeposito) {
+    if(valorDeposito <= 0) {
+      System.out.println("\nVocê precisa depositar um valor válido!");
+    } else {
+      this.saldo += valorDeposito;
+      System.out.println("\nValor depositado: " + valorDeposito);
+      System.out.println("Saldo atual: " + this.saldo);
+    }
+  }
 }

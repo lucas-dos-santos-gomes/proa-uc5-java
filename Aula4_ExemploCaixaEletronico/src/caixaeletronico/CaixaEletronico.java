@@ -10,6 +10,7 @@ public class CaixaEletronico {
     System.out.println();
     Conta contaAndreia = new Conta("Andreia Silva", 12543.57);
     contaAndreia.VerSaldo();
+    contaAndreia.Deposito(62000);
 
     System.out.println();
     Conta contaElder = new Conta("Elder Barbosa", 4713.24);
