@@ -15,5 +15,6 @@ public class Garrafa {
     
     UsarGarrafa garrafa = new UsarGarrafa(bebida, litrosTotais, litrosAtuais);
     garrafa.iniciar();
+    input.close();
   }
 }

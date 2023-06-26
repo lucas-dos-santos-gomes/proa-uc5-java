@@ -16,5 +16,6 @@ public class Car {
     double gasolina = entrada.nextDouble();
     CarFeatures carro = new CarFeatures(marca, marchas, velocidade, gasolina);
     carro.Iniciar();
+    entrada.close();
   }
 }

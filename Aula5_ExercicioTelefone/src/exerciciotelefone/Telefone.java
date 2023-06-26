@@ -17,5 +17,6 @@ public class Telefone {
 
     ConfigFabrica celular = new ConfigFabrica(marca, armazenamento, memoria, operadora);
     celular.iniciar();
+    input.close();
   }
 }
