@@ -40,5 +40,6 @@ public class ExemploSwitch {
 
     String printar = (diaInvalido) ? "Você digitou um dia inválido" : ("Hoje é " + nomeDia);
     System.out.println("\n" + printar);
+    input.close();
   }
 }
