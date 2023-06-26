@@ -77,11 +77,12 @@ public class Conta {
         System.out.println("\nDigite o valor que será depositado:");
         deposito = entrada.nextDouble();
         Deposito(deposito);
+        break;
       case 4:
         System.out.println("\nOperação finalizada!");
         break;
       default:
-        System.out.println("Opção inválida!");
+        System.out.println("\nOpção inválida!");
         break;
     }
   }
